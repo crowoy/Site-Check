@@ -1,0 +1,75 @@
+#header{
+	position: relative;
+	top: 15px;
+	padding-bottom: 15px;
+	font-size: 60px;
+	border-top: 0px;
+	border-bottom: 2px;
+	border-right: 0px;
+	border-left: 0px;
+	border-style: solid;
+	border-color: green;
+}
+
+body {
+	background-color: black;
+	color: green;
+	text-align: center;
+	font-size: 18px;
+	font-family: monospace;
+}
+
+#body {
+	position: relative;
+	width: 100%;
+	top: 150px;
+	font-size: 45px;
+}
+
+#marquee {
+	position: fixed;
+	height: 100%;
+	width: 50%;
+	text-align: center;
+	color: green;
+}
+
+#form_input {
+	height: 45px;
+	width: 550px;
+	color: black;
+	text-align: center;
+	font-size: 18px;
+	font-family: monospace;
+	font-weight: bold;
+}
+
+#form_submit {
+	border: 3px;
+	border-style: solid;
+	border-color: green;
+	padding: 10px 20px;
+	background-color: black;
+	font-weight: bold;
+	color: green;
+}
+
+#form_submit:hover{
+	border-style: dotted;
+}
+
+#scrolling_text {
+	position: fixed;
+	width: 50%
+	height: 100%;
+	text-align: left;
+	font-size: 11px;
+}
+
+footer {
+	position: fixed;
+	bottom: 15px;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
